@@ -1,0 +1,52 @@
+#game_window {
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 29%;
+    width: 600px;
+    text-align: center;
+}
+
+#title {
+    width: 200px;
+    float: left;
+}
+
+#content {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#score_board {
+    width: 200px;
+    float: right;
+}
+
+#startGame {
+    background-color: gray;
+    border: solid;
+    color: unset;
+    padding: 10px 49px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#score,
+#lines {
+    border-style: solid;
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: grey;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+}
